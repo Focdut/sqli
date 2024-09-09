@@ -38,7 +38,7 @@
                     <code>CONCAT('foo','bar')</code><br>
                 </td>
             </tr>
-        </table><h2 id="substring">Substring</h2><p>
+        </table><h2 id="substring">Substring(PARAMS,index,lenght)</h2><p> 
             You can extract part of a string, from a specified offset with a specified length. Note that the offset index is 1-based. Each of the following expressions will return the string <code>ba</code>.
         </p><table class="is-nonresponsive-table">
             <tr>
@@ -46,7 +46,7 @@
                     Oracle
                 </th>
                 <td><code>
-SUBSTR('foobar', 4, 2)
+SUBSTR('foobar', 4, 2) 
                 </code></td>
             </tr>
             <tr>
